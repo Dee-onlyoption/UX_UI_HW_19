@@ -1,0 +1,268 @@
+body{
+    background-color: #250802;
+}
+.nav button {
+    background-color:#250802; 
+    border: 1px solid #250802; 
+    color: #EAE2D0; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 15%;
+    display: block;
+    font-size: large;
+    margin-left: 7%;
+    text-align: left;
+  }
+  
+  .nav button:not(:last-child) {
+    border-bottom: none;
+  }
+  
+  .nav button:hover {
+    background-color: #A7633F;
+  }
+div.flex-container {
+    display: flex; 
+    width: 44%;
+}
+div {
+    flex-direction: row;
+}
+section {
+    display: background-colour#A7633F;
+    opacity: 100%;
+    font-display: colour #EAE2D0;
+    font-style:normal;
+}
+.item{ 
+    grid-area: projectName;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: projectNAme projectName projecttName;
+}
+
+.mySkills{
+    margin: 5%;
+     }
+
+    .wrapper {
+        width:100%;
+        height:70px;
+        display: table;
+    }
+    h3,h1{
+        color: #EAE2D0;
+    }
+    
+    
+    .left, .right,.central {
+        width:30%;
+        padding: 3%;
+        display: table-cell;
+        background:rgba(167, 99, 63, .7);
+        color:#EAE2D0;
+        
+    }
+ 
+    
+.space{
+    width: 3%;
+    height: 70px;
+    display: table-cell;
+}
+
+.bannerimg{
+    margin-left: 25%;
+    width: 50%;
+}
+.bannerimg img{
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h5{
+    font-size: x-large;
+    color: #EAE2D0;
+    margin-left: 5%;
+}
+
+.aboutme {
+    width:30%;
+    padding: 3%;
+    display: table-cell;
+    color:#EAE2D0;
+    
+}
+
+.aboutme p{
+  vertical-align: text-top;
+  position: absolute;
+  width: 30%;
+}
+.profilepicture {
+    width:60%;
+    padding: 3%;
+    display: table-cell;
+    color:#EAE2D0;
+    
+}
+
+.profilepicture img{
+    height: auto;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1{
+    color: #EAE2D0;
+   margin-left: 45%;
+   font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Airieimg{
+    width:90%;
+    padding: 10%;
+    display: table-cell;   
+}
+
+.Airieimg img{
+    height: auto;
+    width: 75%;
+    margin-left: 98%;
+    margin-right: auto;  
+  
+    
+}
+
+.Airiedetails{
+    color: #EAE2D0; 
+}
+
+.Graphicdesignwork{
+    color: #EAE2D0;
+    padding: 5%;
+}
+
+h6{
+    margin-left: 45%;
+    font-size: x-large;
+}
+
+h7{
+    color: #EAE2D0;
+    font-size: x-large;
+    margin-left: 20%;
+    padding-bottom: 3%;
+}
+
+.homepageaboutme{
+    color: #EAE2D0;
+    margin-left: 20%;
+}
+.homepageaboutme1{
+    color: #EAE2D0;
+    margin-left: 25%;  
+}
+.homepageaboutmebutton{
+   margin-left: 55%;
+
+}
+.homepageppimg{
+    margin-left: 0%;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    padding: 4%;
+}
+
+.homepageppimg img{
+    height: auto;
+    width: 75%;
+    margin-left: 75%;
+    margin-right: auto;  
+}
+
+h8{
+    color: #EAE2D0;
+    margin-left: 45%;
+    font-size: x-large;
+}
+.contactinfoform{
+    color: #EAE2D0;
+    margin-left: 22%;
+    padding: 5%;   
+}
+.form-group{
+    color: #EAE2D0;
+    padding: 4%;
+}
+
+h9{
+    color: #EAE2D0;
+    margin-left: 40%;
+    font-size: larger;
+}
+
+@media only screen and (max-width:600px) {
+    body { background-color:#250802;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #categoryGrid{
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "MOBILE PROTOTYPE AIRIE TRAVEL ITINERARY APP"
+        "MOBILE PROTOTYPE CANADIAN COUNCIL FOR THE ARTS - REDESIGN"
+        "MOBILE PROTOTYPE ADDICTIONS & MENTAL HEALTH ONTARIO - REDESIG"
+      ;
+    }
+    #categoryGrid {
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Airie App"
+        "Canadian Council Redesign"
+        "AMHO Redesign"
+        ;  }
+    
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 22px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #dropDown {
+            display: none;
+        }
+        #toggle {
+            background-color: #A7633F;
+            padding: 15px;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        form {
+           
+        }
+        
+        #flexContainer {
+            background-color: #A7633F;
+        }
+
+        
+       
+}
